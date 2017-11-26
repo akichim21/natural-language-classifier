@@ -1,3 +1,4 @@
+# This Python file uses the following encoding: utf-8
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import CountVectorizer

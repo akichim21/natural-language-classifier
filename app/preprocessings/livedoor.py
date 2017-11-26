@@ -3,7 +3,7 @@ import os
 import numpy as np
 import pandas as pd
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LIVEDOOR_DIR = os.path.join(BASE_DIR, 'data', 'livedoor')
 
 def load_df():

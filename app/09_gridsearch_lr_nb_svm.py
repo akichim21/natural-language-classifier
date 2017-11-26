@@ -1,3 +1,4 @@
+# This Python file uses the following encoding: utf-8
 from sklearn.svm import SVC
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.linear_model import LogisticRegression
