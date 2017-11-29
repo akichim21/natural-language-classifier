@@ -1,0 +1,8 @@
+version: '3'
+services:
+  main:
+    build: .
+    command: bash -c "source activate natural-language-classifier && python /tmp/04_mecab_bow_lr.py"
+    volumes:
+      - ./env.yaml:/tmp
+      - ./app:/tmp
