@@ -2,7 +2,7 @@ version: '3'
 services:
   main:
     build: .
-    command: bash -c "source activate natural-language-classifier && python /tmp/04_mecab_bow_lr.py"
+    command: bash -c "source activate natural-language-classifier && python /tmp/${FILE}"
     volumes:
       - ./env.yaml:/tmp
       - ./app:/tmp
